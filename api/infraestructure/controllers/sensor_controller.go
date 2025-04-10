@@ -27,13 +27,13 @@ func (sc *SensorController) ReceiveSensorData(c *gin.Context) {
 		return
 	}
 
-	// Crear un mensaje estructurado para el WebSocket
+	
 	message := entities.Message{
 		Text:   "Datos del sensor recibidos",
 		Action: "sensor_update",
 	}
 
-	// Enviar tanto los datos originales como el mensaje estructurado
+	
 	response := gin.H{
 		"message": message,
 		"sensor_data": sensorData,
