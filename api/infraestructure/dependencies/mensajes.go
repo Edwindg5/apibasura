@@ -1,4 +1,4 @@
-// apibasura/api/infraestructure/dependencies/setup_messages.go
+// apibasura/api/infraestructure/dependencies/mensajes.go
 package dependencies
 
 import (

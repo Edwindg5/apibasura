@@ -1,4 +1,4 @@
-//apibasura/api/domain/entities
+//apibasura/api/domain/entities/mensajes.go
 package entities
 
 type Message struct {

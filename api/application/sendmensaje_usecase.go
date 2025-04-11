@@ -1,4 +1,4 @@
-//apibasura/api/application/SendMessage_usecase.go
+// apibasura/api/application/sendmensaje_usecase.goa
 package application
 
 import (
